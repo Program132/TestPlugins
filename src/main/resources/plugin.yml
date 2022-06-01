@@ -1,0 +1,27 @@
+name: TestPlugin
+version: 1.1.5
+author: Program132
+main: fr.program.testplugin.TestPlugin
+commands:
+  bienvenue:
+    description: Une commande pour dire bienvenue !
+    permission: testplugin.welcome.use
+    aliases:
+      - welcome
+      - bienvenu
+  annonce:
+    description: Une commande pour dire une annonce
+    permission: testplugin.annonce.use
+  kb:
+    description: Une commande pour se donner un stick avec un enchantement Knowback 2
+    permission: testplugin.kb.use
+    aliases:
+      - knowback
+  spawn:
+    description: Une commande qui permet de retourner au spawn/lobby
+    permission: testplugin.spawn.use
+    aliases:
+      - lobby
+  pvp:
+    description: Une commande pour lancer un pvp
+    permission: testplugin.pvp.use
